@@ -1,12 +1,12 @@
-TeThis is a 7-UP-DOWN game silmulator made by using basic HTML CSS Javascript Node.js
+This is a 7-UP-DOWN game silmulator made by using basic HTML CSS Javascript Node.js
 For using this on your PC, make sure you have node installed
 To use the simulator locally, change directory to the project location and initialize node using ... 
-           > npm init
+           *npm init*
            (Search on internet about npm init if you have never used it before)
 Install the required dependencies (express, body-parser) using ...
-           >npm install
+           *npm install*
 Run the server using ... 
-           > node server.js 
+           *node server.js* 
            or > nodemon server.js (if you have nodemon installed)    
 The server will start on localhost 3000
 Open your browser and type url -- > http://localhost:3000/
