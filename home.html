@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betway.co</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="heading">
+        <h1 id = "game">Roll Roll Roll !!</h1>
+    </div>
+
+    <div class="screen">
+        <div class="playing">
+            <div class="balance bars">
+                <img class="icon " src="images/coin.png" alt="gold-coin">
+                <h2 class="amount">----</h2>
+            </div>
+            <div class="profit bars">
+                <img class="icon profit-icon" src="images/green-arrow.png" alt="profit">
+                <h2 class="profits">0</h2>
+            </div>
+            <div class="curBet">
+                <label for="bet"><h2>Current bet :</h2></label>
+                <input type="text" id="bet" name="bet">
+                <button type="submit" class="okay">OK</button>
+            </div>
+            <div class="buttons">
+                <div class="down-but">
+                    <button type="button" class="but down">7 Down</button>
+                </div>
+                <div class="only-but">
+                    <button type="button" class="but only">7 Only</button>
+                </div>
+                <div class="up-but">
+                    <button type="button" class="but up">7 Up</button>
+                </div>
+            </div>
+            <div class="roll">
+                <button type="button" class="roll-button">Roll</button>
+            </div>
+        </div>
+
+        <div class="dices">
+            <div> <h2  class="result"></h2> </div>
+            <img src="images/dice6.png" alt="dice-1" class="dice dice-1">
+            <img src="images/dice6.png" alt="dice-2" class="dice dice-2">
+            <div class="status"><img class="icon coin-2" src="images/coin.png" alt="gold-coin">
+                <h2 class="wins"></h2></div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

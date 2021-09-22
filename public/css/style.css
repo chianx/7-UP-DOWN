@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+    text-align: center;
+    border: dotted grey 10px;
+    height: 715px;
+    font-family: cursive;
+    color: white;
+
+}
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 7rem;
+    margin: 30px;
+    margin-bottom: 60px;
+    text-shadow: 3px 3px 3px white;
+    color: brown;
+}
+
+h2 {
+    position: relative;
+    display: inline;
+    bottom: 6px;
+
+}
+
+.screen {
+    width: 50%;
+}
+
+.bars {
+    text-align: left;
+    width: 150px;
+    height: 40px;
+    border: solid grey 2px;
+    border-radius: 25px;
+    position: relative;
+    
+      
+}
+
+.balance {
+    color: gold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 12px;
+    display: inline;
+}
+
+.profit {
+    color: green;
+    margin-left: 530px;
+    bottom: 44px;
+}
+
+.profit-icon {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.curBet {
+    margin-top: 10px;
+    color: rgb(243, 69, 69);
+}
+
+#bet {
+    width: 200px;
+    height: 30px;
+    border: solid grey 3px;
+    border-radius: 30px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    font-size: 1.3em;
+}
+
+.okay {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-left: 5px;
+    bottom: 13px;
+    border-radius: 10px;
+
+}
+
+.but {
+    width: 170px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 2.5em;
+    border: 5px solid grey;
+
+    
+}
+.up {
+    background-color: rgb(250, 85, 85);
+    color: rgb(245, 189, 189);
+    border-color: red;
+    
+}
+
+.up-but :hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+.only {
+    background-color: rgb(255, 123, 29);
+    color: rgb(248, 199, 164);
+    
+    border-color: orangered;
+}
+
+.only-but :hover{
+    background-color: orangered;
+    color: white;
+}
+
+.down {
+    background-color: rgb(27, 126, 255);
+    color: lightblue;
+    border-color: rgb(43, 43, 253);
+}
+
+.down-but :hover{
+    background-color: rgb(43, 43, 253);
+    color: white;
+}
+
+.down-but, .only-but, .up-but {
+    width: 170px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.down-but {
+    position: absolute;
+    left: 40px;
+    bottom: 234px;
+}
+
+.only-but {
+    position: absolute;
+    left: 250px;
+    bottom: 234px;
+}
+
+.up-but {
+    position: absolute;
+    left: 460px;
+    bottom: 234px;
+}
+
+.roll-button {
+    color: white;
+    font-size: 2.2em;
+    padding: 10px 70px;
+    background-color: rgb(76, 201, 76);
+    text-decoration: none;
+    border:solid 2px green;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 130px;
+    left: 263px;
+
+}
+.roll {
+    margin-top: 60px;
+}
+.roll :hover {
+    background-color: green;
+}
+
+.pressed {
+    box-shadow: 3px 3px 5px 3px grey;
+    opacity: 0.6;
+    border-width: 5px;
+
+}
+
+.dice{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 10px;
+
+}
+
+.dices {
+    width: 50%;
+    display: inline;
+    position: absolute;
+    top: 250px;
+    right: 40px;
+
+}
+
+.status {
+    font-size: 2.5em;
+    color: green;
+}
+
+.result {
+    font-size: 2.5em;
+}
+
+.red {
+    color: red;
+}
+
+.orrange {
+    color: rgb(255, 117, 67);
+}
+
+.blue {
+    color: rgb(0, 81, 255);
+    
+}
+.bgRed {
+    background-color: red;
+}
+.coin-2 {
+    height: 60px;
+    width: 60px;
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}
